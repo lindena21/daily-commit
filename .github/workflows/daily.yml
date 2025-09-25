@@ -15,8 +15,8 @@ jobs:
       - name: Update log file
         run: |
           echo "Daily commit at $(date)" >> log.txt
-          git config --global user.name "Daily Bot"
-          git config --global user.email "dailybot@example.com"
+          git config --global user.name "lindena21"
+          git config --global user.email "lindenaanwar@gmail.com"
           git add log.txt
           git commit -m "Daily commit $(date)" || echo "No changes to commit"
           git push
